@@ -26,6 +26,7 @@ var table = [
         ["America",   "USA",     "Los Angeles"],
         ["America",   "USA",     "New York"],
         ["America",   "USA",     "San Francisco"],
+        ["Asia",      "China",   "Beijing"],
         ["Asia",      "China",   "Hong Kong"],
         ["Asia",      "China",   "Shanghai"],
         ["Asia",      "Japan",   "Kyoto"],

@@ -46,7 +46,7 @@ var NestedSelectList = React.createClass({
         displayName: "NestedSelectList",
         propTypes: {
             values: React.PropTypes.arrayOf(NestedSelectListItem.propTypes.data).isRequired,
-            onSelectItem: React.PropTypes.func.isRequired,
+            onSelectItem: React.PropTypes.func,
             selectedKey: React.PropTypes.string,
             className: React.PropTypes.string
         },
