@@ -1,0 +1,5 @@
+body { margin: 40px; }
+
+ul.nested-select-list.locations li label { width: 40px; }
+ul.nested-select-list.locations li li label { width: 50px; }
+ul.nested-select-list.locations li li li label { width: 80px; }

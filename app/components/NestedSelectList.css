@@ -1,0 +1,11 @@
+ul.nested-select-list { font-family: Arial, Helvetica, san-serif; font-size: 11px; }
+ul.nested-select-list,
+ul.nested-select-list ul { margin: 0; padding: 0; list-style: none; }
+
+ul.nested-select-list li { display: flex; flex-direction: row; }
+ul.nested-select-list li label { margin: 0 1px 1px 0; padding: 0.5em 10px; width: 100px; overflow: hidden; background: #e6e6e6; color: #666666; cursor: default; }
+ul.nested-select-list li.highlighted label { background: #d6d6d6; }
+ul.nested-select-list li.selected label { background: #69b3ff; color: #ffffff; }
+ul.nested-select-list li.selected.highlighted label,
+ul.nested-select-list li.selected li.highlighted label,
+ul.nested-select-list li.highlighted li.selected label { background: #61a5eb; }

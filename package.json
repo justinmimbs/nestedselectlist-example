@@ -1,0 +1,21 @@
+{
+  "name": "nestedselectlist-example",
+  "author": "Justin Mimbs <justin.mimbs@gmail.com>",
+  "description": "Example usage of NestedSelectList React component",
+  "dependencies": {
+    "react": "0.14.x",
+    "react-dom": "0.14.x",
+    "ramda": "0.19.x"
+  },
+  "devDependencies": {
+    "css-loader": "0.23.x",
+    "extract-text-webpack-plugin": "1.x.x",
+    "style-loader": "0.13.x",
+    "webpack": "1.x.x",
+    "webpack-dev-server": "1.x.x"
+  },
+  "scripts": {
+    "build": "BUILD_ENV=production webpack",
+    "dev": "BUILD_ENV=development webpack-dev-server --content-base build/"
+  }
+}
