@@ -1,7 +1,11 @@
 {
   "name": "nestedselectlist-example",
   "author": "Justin Mimbs <justin.mimbs@gmail.com>",
-  "description": "Example usage of NestedSelectList React component",
+  "description": "Example usage of a NestedSelectList component for React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinmimbs/nestedselectlist-example.git"
+  },
   "dependencies": {
     "react": "0.14.x",
     "react-dom": "0.14.x",
