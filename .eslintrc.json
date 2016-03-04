@@ -1,0 +1,8 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-multi-spaces": [2, { "exceptions": {
+      "ArrayExpression": true
+    } }]
+  }
+}
